@@ -1,13 +1,56 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.6rem;
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input {
+  background-color: var(--clr-wb-600);
+  color: white;
+  /* border-color: gray; */
+}
+button {
+  background-color: var(--clr-red);
+  color: var( --clr-wb-800);
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+* {
+  box-sizing: border-box;
+  /* white-space: nowrap; */
+}
+
+:root {
+  font-size: 62.5%;
+  /* white and black--------- */
+  --clr-bg: hsl(0, 0%, 10%);
+  --clr-text: hsl(204, 7%, 85%);
+  --clr-wb-600: hsl(240, 2%, 20%);
+  --clr-wb-800: hsl(240, 2%, 10%);
+
+  --clr-wb-900: hsl(0, 0%, 0%);
+  --clr-wb-500: hsl(204, 7%, 85%);
+  --clr-wb-150: hsl(0, 0%, 92%);
+  --clr-wb-100: hsl(0, 0%, 100%);
+  /* red ------------------------- */
+  --clr-red: hsl(16, 100%, 50%);
 }

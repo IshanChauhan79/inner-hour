@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import classes from "./App.module.css";
+
+import { Switch, Route } from "react-router-dom";
+
+import Header from "./Components/Header/Header";
+import LIstAB from "./Components/ListAB/ListAB";
+import Clock from "./Components/Clock/Clock";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.App}>
+      <Header />
+      <Switch>
+        <Route path="/" exact>
+          <LIstAB />
+        </Route>
+        <Route path="/clock" exact>
+          <Clock />
+        </Route>
+
+        <Route path="/">
+          <div className={classes.NotFound}>404 Page not Found</div>
+        </Route>
+      </Switch>
     </div>
   );
 }
 
 export default App;
+
+// import React from "react";
+// import classes from  "./App.module.css";
+
+// function App() {
+//   return (
+//     <div className={classes.App}>
+//       fdmh
+//     </div>
+//   );
+// }
+
+// export default App;

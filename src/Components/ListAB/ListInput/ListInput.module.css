@@ -1,0 +1,43 @@
+.ListInput {
+  margin: 2rem 0;
+}
+.Title {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+.ListContainer {
+  margin-bottom: 2rem;
+  min-height: 30px;
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.ListEl {
+  background-color: var(--clr-text);
+  color: var( --clr-wb-800);
+  padding: 0.2rem 1rem 0.6rem;
+  border-radius: 0.6rem;
+  margin: 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Input {
+  width: 15rem;
+  padding: 0.6rem 0.8rem;
+  font-size: 1.7rem;
+  margin: 1rem;
+  border-radius: 0.6rem;
+  border: 0;
+  border: 1px solid gray;
+}
+.Button {
+  padding: 0.7rem 1rem;
+  font-size: 1.7rem;
+  margin: 1rem;
+  border-radius: 0.6rem;
+  border: 0;
+  /* border: 1px solid gray; */
+}

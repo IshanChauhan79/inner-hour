@@ -1,0 +1,46 @@
+.Clock {
+  margin: auto;
+  text-align: center;
+  text-align: center;
+  padding: 3rem;
+}
+.Clock > div {
+  max-width: 35rem;
+  margin: auto;
+  text-align: center;
+}
+.Title {
+  font-size: 4rem;
+}
+.Input {
+  margin: 6rem auto !important;
+  font-size: 2.5rem;
+}
+.Input > div {
+  margin: 2rem;
+}
+.Input input {
+  padding: 0.8rem;
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  border-bottom: 1px solid var( --clr-wb-500);
+  width: 8rem;
+  
+}
+.Input button {
+  padding: 0.8rem;
+  font-size: 2rem;
+  border:0;
+  border: 1px solid var( --clr-wb-500);
+}
+.Cancel{
+    margin: 2rem auto !important;
+    display: inline-block;
+    border: 1px solid gray;
+    padding:0.6rem 1.2rem;
+    font-size: 3rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    color:gray
+}

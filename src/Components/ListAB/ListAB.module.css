@@ -1,0 +1,48 @@
+.ListAB {
+  margin: auto;
+  width: min(100%, 90rem);
+  min-width: 35rem;
+  padding: 0 2rem;
+}
+.Compute {
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2.4rem;
+  margin: 0 auto;
+  width: 15rem;
+  background-color: var(--clr-red);
+  color: var(--clr-wb-800);
+  box-shadow: 0 0 30px 0 black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.ComputeResult {
+  text-align: center;
+  margin: 4rem 0;
+  border: 1px solid gray;
+  box-shadow: 0 0 30px 0 black;
+  border-radius: 2rem;
+}
+.TitleCompute {
+  /* position: relative; */
+  margin-top: 3rem;
+  font-size: 1.9rem;
+}
+.ListContainer {
+  margin-bottom: 1.5rem;
+  /* min-height: 30px; */
+  font-size: 1.7rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Element {
+  background-color: var(--clr-text);
+  color: var( --clr-wb-800);
+  padding: 0.2rem 1rem 0.6rem;
+  border-radius: 0.6rem;
+  margin: 1rem 0.6rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
