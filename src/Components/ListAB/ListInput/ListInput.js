@@ -47,14 +47,3 @@ function ListInput(props) {
 }
 
 export default ListInput;
-// {
-  /* <div className={classes.ListContainer}>
-        {list.length === 0 ? null : (
-          <div className={classes.ListEl}>[</div>
-        )}
-        {List}
-        {list.length === 0 ? null : (
-          <div className={classes.ListEl}>]</div>
-        )}
-      </div> */
-// }

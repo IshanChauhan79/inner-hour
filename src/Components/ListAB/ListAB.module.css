@@ -39,7 +39,7 @@
 .Element {
   background-color: var(--clr-text);
   color: var( --clr-wb-800);
-  padding: 0.2rem 1rem 0.6rem;
+  padding: 0.4rem 1rem 0.6rem;
   border-radius: 0.6rem;
   margin: 1rem 0.6rem;
   display: flex;
